@@ -28,7 +28,7 @@ public class RegistrationServlet extends HttpServlet{
 		RequestDispatcher dispatcher = null;
 		Connection conn  = null;
 		try {
-			String url = "jdbc:mysql://localhost:3306/logindb";
+			String url = "jdbc:mysql://localhost:3306/logindb?useSSL=false";
 			String username = "root";
 			String password = "";
 			String query = "insert into users(uname,upwd,uemail,umobile) values(?,?,?,?)";
