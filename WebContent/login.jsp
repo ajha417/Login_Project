@@ -30,7 +30,7 @@
 					</div>
 
 					<div class="signin-form">
-						<h2 class="form-title">Sign up</h2>
+						<h2 class="form-title">Sign In</h2>
 						<form method="" action="" class="register-form"
 							id="login-form">
 							<div class="form-group">
